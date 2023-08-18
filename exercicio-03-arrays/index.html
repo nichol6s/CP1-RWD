@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coded by rm551809 (3)</title>
+    <script src="./js/exercicio3.js" defer></script>
+</head>
+<body>
+    
+    <h1>Exercicio 3 de Arrays</h1>
+
+    <div>
+        <form id="task-form" action="#" method="post">
+            <fieldset>
+                <legend>Nova Tarefa</legend>
+                <div>
+                    <label for="task-description">Descrição</label>
+                    <input type="text" name="taskDescription" id="task-description" placeholder="Digite a descrição da tarefa">
+                </div>
+                <div>
+                    <label for="task-author">Autor</label>
+                    <input type="text" name="taskAuthor" id="task-author" placeholder="Digite o autor da tarefa">
+                </div>
+                <div>
+                    <label for="task-department">Departamento</label>
+                    <input type="text" name="taskDepartment" id="task-department" placeholder="Digite o departamento da tarefa">
+                </div>
+                <div>
+                    <label for="task-importance">Importância</label>
+                    <input type="number" name="taskImportance" id="task-importance" placeholder="Digite a importância da tarefa">
+                </div>
+                <div>
+                    <label for="task-value">Valor</label>
+                    <input type="text" name="taskValue" id="task-value" placeholder="Digite o valor da tarefa">
+                </div>
+                <div>
+                    <label for="task-duration">Duração</label>
+                    <input type="text" name="taskDuration" id="task-duration" placeholder="Digite a duração da tarefa">
+                </div>
+                <div>
+                    <button type="submit" id="add-task-button" class="botao">Adicionar Tarefa</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <div>
+        <table id="task-table">
+            <thead>
+                <tr>
+                    <th>Descrição</th>
+                    <th>Autor</th>
+                    <th>Departamento</th>
+                    <th>Importância</th>
+                    <th>Valor</th>
+                    <th>Duração</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="task-list"></tbody>
+        </table>
+    </div>
+    
+</body>
+</html>
